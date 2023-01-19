@@ -1,9 +1,7 @@
 NAME	=	convert
 
 SRCS	=	main.cpp			\
-			Bureaucrat.cpp
-
-INCS	=						\
-			Bureaucrat.hpp 
+			Convert.cpp
+INCS	=	Convert.hpp
 
 include ../template.mk
