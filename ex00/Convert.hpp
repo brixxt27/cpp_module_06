@@ -2,6 +2,7 @@
 #define CONVERT_HPP
 
 #include <iostream>
+#include <limits>
 
 class Convert
 {

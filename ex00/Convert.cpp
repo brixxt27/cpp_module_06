@@ -24,16 +24,23 @@ Convert::~Convert()
 
 void	Convert::CheckToChar() const
 {
-	if (mDouble != mDouble) {
-		std::cout << "char: ";
-		std::cout << "impossible" << std::endl;
-		return;
-	}
+	// if (mDouble != mDouble) {
+	// 	std::cout << "char: ";
+	// 	std::cout << "impossible" << std::endl;
+	// 	return;
+	// }
 	if (std::isprint(mDouble)) {
 		std::cout << "char: ";
 		std::cout << "'" << mChar << "'" << std::endl;
+		return;
 	}
-
+	if (mDouble >=  std::numeric_limits<char>::min() || mDouble <= std::numeric_limits<char>::max()) {
+		std::cout << "char: ";
+		std::cout << "Non displayable" << std::endl;
+		return;
+	}
+	// std::cout << "char: ";
+	// std::cout << "impossible" << std::endl;
 }
 
 //int	Convert::CheckToInt() const
