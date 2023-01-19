@@ -1,8 +1,9 @@
-NAME	=	mommy_when_I_grow_up_I_want_to_be_a_bureaucrat
+NAME	=	convert
 
 SRCS	=	main.cpp			\
 			Bureaucrat.cpp
 
-INCS	=	Bureaucrat.hpp 
+INCS	=						\
+			Bureaucrat.hpp 
 
 include ../template.mk
