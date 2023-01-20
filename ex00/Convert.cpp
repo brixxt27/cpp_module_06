@@ -97,7 +97,7 @@ void	Convert::CheckToDouble() const
 		return;
 	}
 	std::cout << "double: ";
-	std::cout << std::fixed << std::setprecision(1) << mFloat << std::endl;
+	std::cout << std::fixed << std::setprecision(1) << mDouble << std::endl;
 }
 
 void	Convert::PrintConvertedRawNum() const
