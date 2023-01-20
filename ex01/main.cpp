@@ -13,16 +13,17 @@ static Data* deserialize(uintptr_t raw)
 int main()
 {
 	Data        data = { 42, "42Seoul jayoon" };
+	Data*		original = &data;
 	uintptr_t   serialized_data;
 	Data*		converted_data;
 	
-	serialized_data = serialize(&data);
+	serialized_data = serialize(original);
 	converted_data = deserialize(serialized_data);
 
 	std::cout << "key: " << data.key << std::endl;
 	std::cout << "str: " << data.str << std::endl;
 
-	if (&data != converted_data) {
+	if (original != converted_data) {
 		std::cout << "They are different!" << std::endl;
 		return 1;
 	}
