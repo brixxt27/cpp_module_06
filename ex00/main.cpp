@@ -9,10 +9,10 @@ int	main(int argc, char* argv[])
 
 	Convert	converter(argv[1]);
 
-	//converter.PrintConvertedRawNum();
+	// converter.PrintConvertedRawNum();
 
 	converter.CheckToChar();
-	//converter.CheckToInt();
-	//converter.CheckToFloat();
-	//converter.CheckToDouble();
+	converter.CheckToInt();
+	converter.CheckToFloat();
+	converter.CheckToDouble();
 }

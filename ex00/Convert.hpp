@@ -12,14 +12,9 @@ public:
 	virtual ~Convert();
 	
 	void	CheckToChar() const;
-	//int	CheckToInt() const;
-	//float	CheckToFloat() const;
-	//double	CheckToDouble() const;
-
-	//char	PrintToChar() const;
-	//int	PrintToInt() const;
-	//float	PrintToFloat() const;
-	//double	PrintToDouble() const;
+	void	CheckToInt() const;
+	void	CheckToFloat() const;
+	void	CheckToDouble() const;
 
 	void	PrintConvertedRawNum() const;
 
