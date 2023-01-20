@@ -1,8 +1,9 @@
-NAME	=	mommy_when_I_grow_up_I_want_to_be_a_bureaucrat
+NAME	=	jayoon
 
-SRCS	=	main.cpp			\
-			Bureaucrat.cpp
+SRCS	=	\
+			main.cpp
 
-INCS	=	Bureaucrat.hpp 
+INCS	=	\
+			Data.h
 
 include ../template.mk
