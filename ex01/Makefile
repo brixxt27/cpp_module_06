@@ -1,4 +1,4 @@
-NAME	=	jayoon
+NAME	=	serialization
 
 SRCS	=	\
 			main.cpp

@@ -6,7 +6,7 @@
 struct Data
 {
     int         key;
-    std::string data;
+    std::string str;
 };
 
 #endif
