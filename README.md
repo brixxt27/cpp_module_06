@@ -11,8 +11,9 @@
 git clone https://github.com/brixxt27/cpp_module_06.git
 cd cpp_module_06/ex00
 make
-./conversion_of_scalar_types
+./conversion_of_scalar_types 42.42
 ```
+- 프로그램 인자에 대한 파싱은 std::strtod() 에 의존적이며 가장 처음 찾는 숫자를 다룬다. 숫자를 찾지 못하고, 처음 문자를 만난다면 0으로 이를 인식한다.
 ## Summary
 - Turn-in directory : ex00/
 - Files to turn in : Makefile, *.cpp, *.{h, hpp}
@@ -95,7 +96,7 @@ make
 - void identify(Base* p);
 	- It prints the actual type of the object pointed to by p: "A", "B" or "C".
 - void identify(Base& p);
-	- It prints the actual type of the object pointed to by p: "A", "B" or "C". Using a pointer
-- inside this function is forbidden.
+	- It prints the actual type of the object pointed to by p: "A", "B" or "C". Using a pointer inside this function is forbidden.
+- Including the typeinfo header is forbidden.
 - 모두 예상대로 작동하는지 main문을 작성하시오.
 <bt> </bt>
