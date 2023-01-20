@@ -1,8 +1,15 @@
-NAME	=	mommy_when_I_grow_up_I_want_to_be_a_bureaucrat
+NAME	=	identify_real_type
 
 SRCS	=	main.cpp			\
-			Bureaucrat.cpp
+			Base.cpp			\
+			A.cpp				\
+			B.cpp				\
+			C.cpp				\
 
-INCS	=	Bureaucrat.hpp 
+INCS	=	\
+			Base.h			\
+			A.h				\
+			B.h				\
+			C.h				\
 
 include ../template.mk
